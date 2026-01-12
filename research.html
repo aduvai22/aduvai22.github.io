@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Research & Projects | Adnan Abdullah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="resources/css/site.css">
+</head>
+
+<body>
+
+  <!-- Top navigation (same across pages) -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="site-title">
+        <a href="index.html">Adnan Abdullah</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="assets/Adnan_Abdullah_CV_Dec2025.pdf" target="_blank" rel="noopener">CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+
+    <section style="max-width: 980px; margin: 0 auto;">
+      <h2>Research & Projects</h2>
+      <hr>
+      <p>
+        Below are selected research projects and publications <strong>led by me</strong>, grouped by theme.
+        For additional projects that I have collaborated on or supported within the lab, please visit the
+        <a href="https://robopi.ece.ufl.edu/index.html" target="_blank" rel="noopener">RoboPI Lab</a> website.
+      </p>
+
+      <!-- =========================
+           SECTION 1
+      ========================== -->
+      <section id="cave">
+        <h2>Underwater Cave Exploration with AUVs</h2>
+        <hr>
+
+        <!-- ===== Paper block TYPE A: single image (left) + text (right) ===== -->
+        <div class="paper paper--split">
+          <div class="paper-media">
+            <img src="images/projects/CaveSeg1.jpeg" alt="CaveSeg1">
+          </div>
+
+          <div class="paper-body">
+            <h4>CaveSeg Project</h4>
+            <p class="paper-meta">
+              ICRA | 2024 |
+              <a href="https://ieeexplore.ieee.org/abstract/document/10611543" target="_blank" rel="noopener">Paper</a> | 
+              <a href="https://www.dropbox.com/scl/fo/834e7dap0ze6cp5hqz2ty/AN3MObQt-Wlt84zvgkmPYLM?rlkey=s93qm6x97w99jq953u11yh5kq&e=1&dl=0" target="_blank" rel="noopener">Dataset</a> |
+              <a href="https://www.youtube.com/watch?v=LXkK-dO2t1A" target="_blank" rel="noopener">Demo</a>
+            </p>
+
+            <p>
+              In this project, we present <b>CaveSeg</b>, the first visual learning pipeline for semantic segmentation 
+              and scene parsing for AUV navigation inside underwater caves. We address the problem of scarce 
+              annotated data by preparing a comprehensive dataset for semantic segmentation of underwater cave scenes. 
+              It contains pixel annotations for important navigation markers (e.g. caveline, arrows), 
+              obstacles (e.g. ground plane and overhead layers), scuba divers, and open areas for servoing. 
+              Moreover, we formulate a novel transformer-based model that is computationally light and offers 
+              near real-time execution in addition to achieving state-of-the-art performance. 
+              We explore the design choices and implications of semantic segmentation for visual servoing by AUVs 
+              inside underwater caves.
+            </p>
+          </div>
+        </div>
+
+        <!-- ===== Paper block TYPE A: single image (left) + text (right) ===== -->
+         <div class="paper paper--stack">
+          <div class="paper-media-grid">
+            <img src="images/projects/CavePI1.png" alt="Cave">
+            <img src="images/projects/CavePI_Ginnie.gif" alt="CavePI gif">
+          </div>
+
+          <div class="paper-body">
+            <h4>CavePI Project</h4>
+            <p class="paper-meta">
+              RSS | 2025 |
+              <a href="https://www.roboticsproceedings.org/rss21/p141.pdf" target="_blank" rel="noopener">Paper</a> | 
+              <a href="https://github.com/uf-robopi/CavePI_AUV/" target="_blank" rel="noopener">Code</a> |
+              <a href="https://youtu.be/9BPpB1nu98E" target="_blank" rel="noopener">Demo</a>
+            </p>
+
+            <p>
+              We developed a novel AUV (autonomous underwater vehicle) named CavePI for navigating underwater caves using 
+              semantic guidance from cavelines and other navigational markers. The compact design and 4-DOF 
+              (surge, heave, roll, and yaw) motion model enable safe traversal through narrow passages with minimal silt disturbance. 
+              Designed for single-person deployment, CavePI features a forward-facing camera for visual servoing and a 
+              downward-facing camera for caveline detection and tracking, effectively minimizing blind spots around the robot. 
+              A Ping sonar provides sparse range data to ensure robust obstacle avoidance and safe navigation within the caves. 
+              The computational framework is powered by two single-board computers: a Jetson Nano for perception, 
+              and a Raspberry Pi-5 for planning and control. We also present a digital twin of CavePI, built using ROS and 
+              simulated in an underwater environment via Gazebo, to support pre-mission planning and testing, providing a 
+              cost-effective platform for validating mission concepts.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           SECTION 2
+      ========================== -->
+      <section id="teleop">
+        <h2>Shared Autonomy & Embodied Teleoperation</h2>
+        <hr>
+
+        <!-- Add paper blocks here (copy Type A or Type B) -->
+
+        <!-- ===== Paper block TYPE B: two images (side-by-side) + text below ===== -->
+        <div class="paper paper--banner">
+          <div class="paper-media-banner">
+            <img src="images/projects/telerobotics1.png" alt="hmi1">
+          </div>
+
+          <div class="paper-body">
+            <h4>Human-Machine Interfaces for Subsea Telerobotics: Review</h4>
+            <p class="paper-meta">
+              IEEE T-HMS (In Review) | 2025 | 
+              <a href="https://arxiv.org/pdf/2412.01753" target="_blank" rel="noopener">Pre-print</a>
+            </p>
+
+            <p>
+              This project investigates the evolution of human-machine interfaces (HMIs) in subsea telerobotics, 
+              with a focus on enabling effective and adaptive human-robot collaboration beyond traditional teleoperation. 
+              Existing subsea systems largely rely on human-to-machine control with limited, delayed, and low-dimensional 
+              sensory feedback, constraining operator situational awareness and decision-making. We examine how subsea 
+              HMIs have progressed from narrow field-of-view, first-person “soda-straw” interfaces to modern systems 
+              incorporating immersive visualization, gesture-based interaction, haptics, and natural language communication. 
+              Through a systematic analysis of prior work, we study HMI design from the perspectives of operator experience, 
+              robotic autonomy, and bidirectional communication quality. Particular attention is given to persistent 
+              limitations in immersive feedback fidelity, intuitive control, and cross-platform standardization, as well as 
+              the role of simulators and digital twins for training and prototyping. The project further explores emerging 
+              shared autonomy paradigms that support seamless human-robot cooperation and outlines open challenges and future 
+              directions for intelligent, user-centric subsea HMI development.
+            </p>
+          </div>
+        </div>
+
+        <div class="paper paper--banner">
+          <div class="paper-media-banner">
+            <img src="images/projects/EgoExopp1.jpeg" alt="EgoExopp1">
+          </div>
+
+          <div class="paper-body">
+            <h4>EgoExo++ (Extension of Ego-to-Exo) Project</h4>
+            <p class="paper-meta">
+              IJRR (In Review) | 2025 | 
+              <a href="https://arxiv.org/pdf/2407.00848" target="_blank" rel="noopener">Pre-print</a> |
+              <a href="https://youtu.be/xpvnzIJ_YbM" target="_blank" rel="noopener">Demo</a>
+            </p>
+
+            <p>
+              We propose EgoExo++ that
+              extends beyond 2D exocentric view synthesis (EgoExo) to
+              augment a dense 2.5D ground surface estimation on-the-fly. It
+              simultaneously renders the ROV model onto this reconstructed
+              surface, enhancing semantic perception and depth comprehension. The computations involved are closed-form and rely solely
+              on egocentric views and monocular SLAM estimates, which
+              makes it portable across existing teleoperation engines and
+              robust to varying waterbody characteristics. We validate the
+              geometric accuracy of our approach through extensive experiments of 2-DOF indoor navigation and 6-DOF underwater cave
+              exploration in challenging low-light conditions. Quantitative
+              metrics confirm the reliability of the rendered Exo views, while
+              a user study involving 15 operators demonstrates improved
+              situational awareness, navigation safety, and task efficiency
+              during teleoperation. Furthermore, we highlight the role of
+              EgoExo++ augmented visuals in supporting shared autonomy,
+              operator training, and embodied teleoperation. This new interactive approach to ROV teleoperation presents promising
+              opportunities for future research in subsea telerobotics.
+            </p>
+          </div>
+        </div>
+
+        <!-- ===== Paper block TYPE B: two images (side-by-side) + text below ===== -->
+        <div class="paper paper--stack">
+          <div class="paper-media-grid">
+            <img src="images/projects/EgoExo1.jpeg" alt="EgoExo1">
+            <img src="images/projects/EgoExo1.gif" alt="EgoExo gif">
+          </div>
+
+          <div class="paper-body">
+            <h4>Ego-to-Exo Project</h4>
+            <p class="paper-meta">
+              ISRR | 2024 |
+              <a href="https://par.nsf.gov/servlets/purl/10614050" target="_blank" rel="noopener">Paper</a> |
+              <a href="https://youtu.be/NlpHmA3rpjY" target="_blank" rel="noopener">Demo</a>
+            </p>
+
+            <p>
+             Underwater ROVs (Remotely Operated Vehicles) are unmanned submersible vehicles designed for exploring and 
+             operating in the depths of the ocean. Despite using high-end cameras, typical teleoperation engines based 
+             on first- person (egocentric) views limit a surface operator's ability to maneuver and navigate the ROV in 
+             complex deep-water missions.
+
+              In this paper, we present an interactive teleoperation interface that (i) offers on-demand “third”-person 
+              (exocentric) visuals from past egocentric views, and (ii) facilitates enhanced peripheral information with 
+              augmented ROV pose in real-time. We achieve this by integrating a 3D geometry-based Ego-to-Exo view synthesis 
+              algorithm into a monocular SLAM system for accurate trajectory estimation. The proposed closed-form solution 
+              only uses past egocentric views from the ROV and a SLAM backbone for pose estimation, which makes it portable 
+              to existing ROV platforms. Unlike data-driven solutions, it is invariant to applications and waterbody-specific scenes.
+            </p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- =========================
+           SECTION 3
+      ========================== -->
+      <section id="udc">
+        <h2>Underwater Data Center Surveillance</h2>
+        <hr>
+
+        <!-- Add paper blocks here (copy Type A or Type B) -->
+
+        <div class="paper paper--banner">
+          <div class="paper-media-banner">
+            <img src="images/projects/LCMAP1.jpeg" alt="LCMAP1">
+          </div>
+
+          <div class="paper-body">
+            <h4>LC-MAP: Acoustic Threat Localization Project</h4>
+            <p class="paper-meta">
+              IEEE JoE (In Review) | 2025 |
+              <a href="https://arxiv.org/pdf/2510.20122" target="_blank" rel="noopener">Pre-print</a> |
+              <a href="https://youtu.be/6QOY7q3n34M" target="_blank" rel="noopener">Demo</a>
+            </p>
+
+            <p>
+              comprehensive surveillance framework for localizing and tracking close-range adversarial acoustic sources targeting offshore
+              infrastructures, particularly underwater data centers (UDCs).
+              We propose a heterogeneous receiver configuration comprising
+              a fixed hydrophone mounted on the facility and a mobile
+              hydrophone deployed on a dedicated surveillance robot. While
+              using enough arrays of static hydrophones covering large infrastructures is not feasible in practice, off-the-shelf approaches
+              based on time difference of arrival (TDOA) and frequency
+              difference of arrival (FDOA) filtering fail to generalize for this
+              dynamic configuration. To address this, we formulate a LocusConditioned Maximum A-Posteriori (LC-MAP) scheme to 
+              generate acoustically informed and geometrically consistent priors,
+              ensuring a physically plausible initial state for a joint TDOAFDOA filtering. We integrate this into an unscented Kalman
+              filtering (UKF) pipeline, which provides reliable convergence
+              under nonlinearity and measurement noise. Extensive Monte
+              Carlo analyses, Gazebo-based physics simulations, and field
+              trials demonstrate that the proposed framework can reliably
+              estimate the 3D position and velocity of an adversarial acoustic
+              attack source in real time. It achieves sub-meter localization
+              accuracy and over 90% success rates, with convergence times
+              nearly halved compared to baseline methods. Overall, this
+              study establishes a geometry-aware, real-time approach for
+              acoustic threat localization, advancing autonomous surveillance
+              capabilities of underwater infrastructures.
+            </p>
+          </div>
+        </div>
+
+      </section>
+
+    </section>
+  </main>
+
+</body>
+</html>

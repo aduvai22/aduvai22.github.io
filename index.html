@@ -1,293 +1,336 @@
 <!DOCTYPE HTML>
-<!--
-	Strongly Typed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-  
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .container {
-      display: flex;
-      flex-direction: row;
-    }
-    
-    .left-column {
-      flex: 1.2;
-      background-color: #f2f2f2;
-      padding: 20px;
-    }
-    
-    .right-column {
-      flex: 3.8;
-      padding: 20px;
-    }
-    
-    h2 {
-      color: #000;
-    }
-    
-    p {
-      color: #666;
-    }
-  </style>
-	<head>
-    <title>My Personal Website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="resources/css/main.css" />
-	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Adnan Abdullah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-			<!-- Header -->
-			<section id="header">
-				<section id="bannerH">
+  <!-- Your clean CSS -->
+  <link rel="stylesheet" href="resources/css/site.css">
 
-				<div class="container">
-					<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html"><span>Home</span></a></li>
-							<li><a href="index.html#education"><span>Education</span></a></li> 
-              <li><a href="index.html#research" ><span>Research Experience</span></a></li>	
-							<li><a href="index.html#publications"><span>Publications</span></a></li>
-              <li><a href="index.html#contact"><span>Contact</span></a></li>  
-						</ul>
-					</nav>
-					
-				</div>
+  <!-- Optional JS (slideshow) -->
+  <script src="resources/js/site.js" defer></script>
+  <script src="https://unpkg.com/simple-icons@latest/dist/simple-icons.min.js"></script>
+  <script src="resources/js/site.js" defer></script>
 
-				</section>
-			</section>
+</head>
 
-  
-      <div class="container">
-        <div class="left-column">
-          <div>
-            <img src="images/profile_photo.jpg" width="250" />
-            <h1>Adnan Abdullah</h1>
-            <h4> PhD Student, <a href="https://www.ece.ufl.edu/">ECE, UF</a> </br>
-                Research Assistant, <a href="https://robopi.ece.ufl.edu/">RoboPI Lab</a>
-            </h4>
-          </div></br>
-          <hr>
+<body>
 
-          <section id="contact">
-            <h3 id="contacts">Get in Touch</h3>
-            <ul class="contact-links">
-                <li>
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto: adnanabdullah@ufl.edu">adnanabdullah@ufl.edu</a>
-                </li>
-                <li>
-                    <i class="fab fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/adnanabdullah9/" target="_blank">LinkedIn</a>
-                </li>
-                <li>
-                    <i class="fas fa-graduation-cap"></i>
-                    <a href="https://scholar.google.com/citations?user=0vWxyQMAAAAJ&hl=en" target="_blank">Google Scholar</a>
-                </li>
-                <li>
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/adnanabdullah97" target="_blank">Twitter</a>
-                </li>
-            </ul>
-            </section></br>
+  <!-- Top navigation bar -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="site-title"><a href="index.html">Adnan Abdullah</a></div>
 
-            <hr>
+      <nav aria-label="Primary Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li> <!-- separate page -->
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="assets/Adnan_Abdullah_CV_Dec2025.pdf" target="_blank" rel="noopener">CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 
-          <section id="interest">
-            <h3>Interests and Voluntary Works</h3>
-            <ul>
-              <li>Regular blood donation (Blood group: O+) </li>
-              <li>Served as an amanuensis for a visually impaired 12th grade student</li>
-              <li>Voluntary social work for children welfare</li>
-              <li>Local and international traveling</li>
-              <li>Playing and watching football </li>
-            </ul>
-          </section>
+  <div class="page">
+    <div class="container">
+
+      <!-- Left column -->
+      <aside class="left-column">
+        <div>
+          <img class="profile-photo" src="images/profile_photo.jpg" alt="Profile photo of Adnan Abdullah" />
+          <h1>Adnan Abdullah</h1>
+
+          <div class="role">
+            PhD Student, <a href="https://www.ece.ufl.edu/" target="_blank" rel="noopener">ECE, UF</a><br>
+            Research Assistant, <a href="https://robopi.ece.ufl.edu/" target="_blank" rel="noopener">RoboPI Lab</a>
+          </div>
         </div>
 
+        <hr>
 
-        <div class="right-column">
+        <div class="social-icons">
+          <a href="mailto:adnanabdullah@ufl.edu" aria-label="Email">
+            <img src="icons/email.svg" alt="Email icon">
+          </a>
+
+          <a href="https://scholar.google.com/citations?user=0vWxyQMAAAAJ&hl=en"
+            target="_blank" rel="noopener" aria-label="Google Scholar">
+            <img src="icons/googlescholar.svg" alt="Google Scholar icon">
+          </a>
+
+          <a href="https://github.com/aduvai22"
+            target="_blank" rel="noopener" aria-label="GitHub">
+            <img src="icons/github.svg" alt="GitHub icon">
+          </a>
+
+          <a href="https://www.linkedin.com/in/adnanabdullah9/"
+            target="_blank" rel="noopener" aria-label="LinkedIn">
+            <img src="icons/linkedin.svg" alt="LinkedIn icon">
+          </a>
+        </div>
+
+        <hr>
+
+
+        <!-- <section id="interest">
+          <h3>Interests and Voluntary Work</h3>
+          <ul>
+            <li>Regular blood donation (Blood group: O+)</li>
+            <li>Served as an amanuensis for a visually impaired 12th grade student</li>
+            <li>Voluntary social work for children welfare</li>
+            <li>Local and international traveling</li>
+            <li>Playing and watching football</li>
+          </ul>
+        </section> -->
+
+        <section class="skills-block" id="skills">
+          <h3>Skills</h3>
+
+          <div class="skill-group">
+            <div class="label">Programming & ML</div>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">MATLAB</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="label">Robotic Software</div>
+            <div class="chips">
+              <span class="chip">ROS</span>
+              <span class="chip">Gazebo</span>
+              <span class="chip">RViz</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="label">Robot Platforms</div>
+            <div class="chips">
+              <span class="chip">BlueROV2</span>
+              <span class="chip">BlueBoat</span>
+              <span class="chip">Aqua2</span>
+              <span class="chip">NemoSens</span>
+              <span class="chip">Chasing M2</span>
+              <span class="chip">CavePI</span>
+              <span class="chip">NemeSys</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="label">Edge-AI Devices</div>
+            <div class="chips">
+              <span class="chip">Jetson Orin Nano</span>
+              <span class="chip">Xavier NX</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="label">SBCs & Hardware</div>
+            <div class="chips">
+              <span class="chip">Raspberry Pi 4/5</span>
+              <span class="chip">Arduino</span>
+              <span class="chip">Pixhawk</span>
+              <span class="chip">LiDAR</span>
+              <span class="chip">Hydrophone</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="label">Tools</div>
+            <div class="chips">
+              <span class="chip">Git</span>
+              <span class="chip">Docker</span>
+              <span class="chip">VS Code</span>
+              <span class="chip">Ubuntu</span>
+              <span class="chip">LaTeX</span>
+              <span class="chip">MS Office</span>
+            </div>
+          </div>
+        </section>
+
+        <hr>
+
+      </aside>
+
+      <!-- Right column -->
+      <main class="right-column">
+
+        <section id="about">
           <h2>About Me</h2>
-            <hr>
-            <p>
-              I am a Ph.D. student at the department of ECE, University of Florida. 
-              I completed my Bachelor of Science (BSc) from Bangladesh University of Engineering and Technology with a major in Electrical and Electronic Engineering. 
-              My research interest is primarily in the field of embedded deep learning for marine robotics and on-device vision. 
-              Currently, I am working as a Graduate Research Assistant at RoboPI Lab where I am leading several projects focusing on audio-visual signal understanding 
-              and secure communication of mobile robots in adverse sensing conditions. 
-              I am also working on state estimation and localization of mobile robots in long-term exploratory missions.
-            </p></br></br>
-
-            <h2 id="education">Education</h2>
-              <hr>
-              <h4> Doctor of Philosophy (PhD) </h4>
-              <a href="https://www.ufl.edu/"><img align="right" src="images/uf.png" width="60" /> </a>
-              <p> 
-                January 2023 - Present <br> 
-                Department of Electrical and Computer Engineering (ECE) <br>
-                University of Florida (UF)
-              </p>
-              <h4> Bachelor of Science in Engineering (BScEngg) </h4> 
-              <a href="https://www.buet.ac.bd/web/"><img align="right" src="images/buet.png" width="60" /> </a>
-              <p>
-                February 2016 - February 2021 <br>
-                Department of Electrical and Electronic Engineering (EEE) <br> 
-                Bangladesh University of Engineering and Technology (BUET) <br>
-                CGPA: 3.73 / 4.00 &emsp; # Rank: 33 / 216 &emsp; # Top 15% in graduating class
-              </p>
-      
-              <h4> Higher Secondary Certificate (HSC) </h4>
-              <a href="https://ndc.edu.bd/"><img align="right" src="images/ndc.png" width="60" /> </a>
-              
-              <p>
-                Class of 2015 <br>
-                Notre Dame College, Dhaka <br>
-                Group: Science <br>
-                GPA: 5.00 / 5.00 &emsp; # Rank: 70 / 1504 &emsp; # Top 5% in college
-              </p></br></br>
-
-
-            <h2 id="research">Research Experience</h2>
-              <hr>
-              <h4>Graduate Research Assitant</h4>
-              <a href="https://www.ufl.edu/"><img align="right" src="images/robopi_only.jpeg" width="80" /> </a>
-              <p>RoboPI Lab, Department of ECE, University of Florida <br>
-                January 2023 - Present 
-              </p></br></br>
-
-
-          <h2>Teaching Experience</h2>
-            <hr>
-            <h4>Graduate Teaching Assitant</h4>
-            <a href="https://www.ufl.edu/"><img align="right" src="images/uf.png" width="60" /> </a>
-            <p>Department of ECE, University of Florida <br>
-              January 2024 - April 2024 
-            </p>
-
-            <h4>Adjunct Lecturer</h4>
-            <a href="https://www.bracu.ac.bd/"><img align="right" src="images/bracu.png" width="60" /> </a>
-            <p>Department of CSE, Brac University <br>
-              February 2022 - December 2022 
-            </p>
-
-            <h4>Full-Time Lecturer</h4>
-            <a href="https://www.bubt.edu.bd/"><img align="right" src="images/bubt.png" width="60" /> </a>
-            <p>Department of EEE, Bangladesh University of Business and Technology <br>
-              January 2022 - February 2022 
-            </p>
-
-            <h4>Full-Time Lecturer</h4>
-            <a href="https://zhsust.ac.bd/"><img align="right" src="images/zhsust.jpeg" width="60" /> </a>
-            <p>Department of EEE, Z. H. Sikder University of Science and Technology<br>
-              June 2021 - January 2022 
-            </p></br></br>
-
-
-
-
-          <h2>Technical Skills</h2>
-            <hr>
-            <h4> Programming</h4>
-            <ul>
-              <li>Expert in ROS, Python and MATLAB </li>
-              <li>Intermediate skill in C, C++ </li>
-            </ul>
-            <h4> Design and Simulation Software </h4>
-            <ul>
-              <li>Expert in MATLAB, Proteus, and Cadence</li>
-              <li>Intermediate skill in AutoCAD, OPNET, Cisco, Spice, Verilog and Simulink </li> 
-            </ul>
-            <h4> Edge Devices </h4>
-            <ul>
-                <li>Expert in Raspberry Pi and Nvidia Jetson Nano </li>
-                <li>Familiar with Arduino series. </li>
-            </ul>
-            <h4>Soft Skills </h4> 
-            <ul>
-              <li>MS Office (Word, Power Point, Excel, Visio) </li> 
-              <li>LaTeX </li>
-            </ul>
-          </br></br>
-
-
-          <h2 id="publications">Publications</h2>
-            <hr>
-
-            <h4>
-              Ego-to-Exo: Interfacing Third Person Visuals from Egocentric Views in Real-time for Improved ROV Teleoperation
-            </h4>
-            <p>A Abdullah, R Chen, I Rekleitis, MJ Islam <br>
-              
-            </p>
-
-            <h4>
-              <a href="https://arxiv.org/pdf/2309.11038">CaveSeg: Deep Semantic Segmentation and Scene Parsing for Autonomous Underwater Cave Exploration</a>
-            </h4>
-            <p>A Abdullah, T Barua, R Tibbetts, Z Chen, MJ Islam, I Rekleitis <br>
-              IEEE International Conference on Robotics and Automation (ICRA), 2024
-            </p>
-
-            <h4>
-              A Mobile Robotic Solution for Dense Water Quality Sensing and Monitoring
-            </h4>
-            <p>A Abdullah, M Talebi, R Chen, MJ Islam <br>
-              RUNE Workshop at IEEE International Conference on Robotics and Automation (ICRA)
-            </p>
-
-            <h4>
-              Dynamic Light-field Sensing for Distributed Light Pollution Monitoring
-            </h4>
-            <p>SE Huang, A Abdullah, R Chen, MJ Islam <br>
-              RUNE Workshop at IEEE International Conference on Robotics and Automation (ICRA)
-            </p>
-
-            <h4>
-              <a href="https://arxiv.org/pdf/2404.11815"> Acoustic Manipulation of Underwater Data Center Operations and Resource Management</a>
-            </h4>
-            <p>JM Sheldon, W Zhu, A Abdullah, SHV Bhupathiraju, T Sugawara, K Butler, MJ Islam, S Rampazzi <br>
-              IEEE S&P, 2024
-            </p>
-
-            <h4>
-              <a href="https://dl.acm.org/doi/abs/10.1145/3599691.3603403">Deep Note: Can Acoustic Interference Damage the Availability of Hard Disk Storage in Underwater Data Centers?</a>
-            </h4>
-            <p>JM Sheldon, W Zhu, A Abdullah, K Butler, MJ Islam, S Rampazzi <br>
-              ACM Workshop on Hot Topics in Storage and File Systems (HotStorage), 2023
-            </p></br></br>
-            
-
-
-          <!-- <h2>Research and Projects</h2>
-            <hr>
-            <h4> Undergraduate thesis </h4>
-            <p>Deep Learning Based Motion Artifact Modeling Technique to Estimate Heart Rate from
-              Intense Motion Artifact Corrupted PPG Signals
-            </p></br></br> -->
-
-          <h2>Awards</h2>
           <hr>
-          <h4> Best Paper Award </h4>
-          <p>ACM HotStorage 2023
+          <p>
+            I am a Ph.D. researcher working in robotics and autonomous systems in the Department of Electrical and Computer Engineering 
+            at the University of Florida. My research focuses on building robust perception, navigation, and human-robot 
+            interaction systems for challenging underwater environments characterized by GPS denial, low visibility, and 
+            degraded sensing. I work at the intersection of robot vision, multi-modal scene representation, and SLAM, developing 
+            real-time ROS-based pipelines that are validated through extensive field deployments on AUV and ROV platforms.
+          </p>
+          <p>
+            My current research spans <strong>three main directions</strong>: (i) AI-driven perception and sonar-visual scene representation 
+            for natural language interaction with AUVs, (ii) advanced subsea telerobotics and shared autonomy interfaces that enable 
+            effective human-robot collaboration, and (iii) sensing, security, and agentic surveillance for underwater data center operations. 
+            I am a Graduate Research Assistant at the RoboPI Lab, where I lead projects on audio-visual signal understanding, 
+            adaptive autonomy, and resilient robotic systems for long-duration missions.
+          </p>
 
-          <h4> Dean's Honors List </h4>
-          <p>2018, BUET 
-          </br></br>
+          <!-- Simple slideshow near About -->
+          <div class="slideshow" aria-label="Photo slideshow">
+            <!-- Replace these with your actual filenames -->
+            <img class="active" src="images/ICRA_presentation.jpeg" alt="CaveSeg Presentation ICRA 2024">
+            <img src="images/ICRA_poster_session.jpg" alt="Poster session ICRA 2024">
+            <img src="images/field_work_ginnie.jpg" alt="NemeSys Prototyping at Ginnie Springs">
+            <img src="images/nelms_poster_session.jpg" alt="NelmsIoT Poster presentation 2025">
+            <img src="images/IROS_board.jpg" alt="IROS2023">
+            <div class="slideshow-caption" id="slideshowCaption">
+              Some moments from lab/field work.
+            </div>
+          </div>
+        </section>
 
-            
+        <section id="education">
+          <h2>Education</h2>
+          <hr>
 
+          <h4>Doctor of Philosophy (PhD)</h4>
+          <a href="https://www.ufl.edu/" target="_blank" rel="noopener">
+            <img class="logo-right" src="images/uf.png" alt="University of Florida logo" />
+          </a>
+          <p>
+            January 2023 - Present<br>
+            Department of Electrical and Computer Engineering (ECE)<br>
+            University of Florida (UF)
+          </p>
 
-          <!-- Add more descriptions here -->
-        </div>
-      </div>
+          <h4>Bachelor of Science in Engineering (BScEngg)</h4>
+          <a href="https://www.buet.ac.bd/web/" target="_blank" rel="noopener">
+            <img class="logo-right" src="images/buet.png" alt="BUET logo" />
+          </a>
+          <p>
+            February 2016 - February 2021<br>
+            Department of Electrical and Electronic Engineering (EEE)<br>
+            Bangladesh University of Engineering and Technology (BUET)<br>
+            CGPA: 3.73 / 4.00 &emsp; # Rank: 33 / 216 &emsp; # Top 15% in graduating class
+          </p>
+
+          <h4>Higher Secondary Certificate (HSC)</h4>
+          <a href="https://ndc.edu.bd/" target="_blank" rel="noopener">
+            <img class="logo-right" src="images/ndc.png" alt="Notre Dame College logo" />
+          </a>
+          <p>
+            Class of 2015<br>
+            Notre Dame College, Dhaka<br>
+            Group: Science<br>
+            GPA: 5.00 / 5.00 &emsp; # Rank: 70 / 1504 &emsp; # Top 5% in college
+          </p>
+        </section>
+
+        <section id="research">
+          <h2>Research & Collaborations</h2>
+          <hr>
+
+          <!-- Home page has a summary + link to detailed page -->
+          <div class="card">
+            <p style="margin-top:0;">
+              My research centers on field robotics and AI-embedded robust sensing for autonomous systems 
+              operating in challenging environments, including GPS-denied, low-light, and confined underwater settings. 
+              I take an end-to-end systems approach: designing and integrating hardware platforms, developing perception 
+              and autonomous control algorithms, and validating them through real-world deployments. My current projects span 
+              multimodal scene representation for natural-language interaction with AUVs, agentic underwater 
+              infrastructure surveillance against acoustic threats, and the development of embodied human-robot 
+              teleoperation interfaces for shared autonomy missions.
+            </p>
+            <p>
+              A defining aspect of my work is <strong>extensive field validation and cross-institutional collaboration</strong>. 
+            </p>
+            <ul class="text-list">
+              <li> I have led underwater cave exploration trials in Florida in collaboration with the 
+                Autonomous Field Robotics Lab at the University of Delaware, executing tens of human-robot cooperative missions.</li>
+              <li> I have prototyped and deployed low-cost, portable marine robotic modules for water-quality monitoring 
+                with the VTech Center for Ecosystem Forecasting.</li>
+              <li> I have conducted seabed and subsea structure mapping missions in the Gulf of Mexico 
+                with the FSU Coastal and Marine Lab using NemoSens AUV.</li>
+              <li> I have contributed to live glider trajectory estimation 
+                experiments using streamed data from the Atlantic Ocean during the Autonomous Systems Bootcamp at the 
+                University of Delaware.</li>
+            </ul>
+            <p>
+              Collectively, these efforts emphasize scalable, field-proven robotic systems that 
+              bridge perception, autonomy, and human interaction.
+            </p>
+            <p style="margin-bottom:0;">
+              See projects led by me: <a href="research.html">Research</a>
+            </p>
+          </div>
+
+          <h4>Graduate Research Assistant</h4>
+          <a href="https://robopi.ece.ufl.edu/" target="_blank" rel="noopener">
+            <img class="logo-right" src="images/robopi_only.jpeg" alt="RoboPI Lab logo" style="width:80px;">
+          </a>
+          <p>
+            RoboPI Lab, Department of ECE, University of Florida<br>
+            January 2023 - Present
+          </p>
+        </section>
+
+        <section id="teaching">
+          <h2>Teaching Experience</h2>
+          <hr>
+
+          <h4>Graduate Teaching Assistant</h4>
+          <a href="https://www.ufl.edu/" target="_blank" rel="noopener">
+            <img class="logo-right" src="images/uf.png" alt="UF logo" />
+          </a>
+          <p>
+            Department of ECE, University of Florida<br>
+            January 2024 - April 2024
+          </p>
+
+          <h4>Adjunct Lecturer</h4>
+          <a href="https://www.bracu.ac.bd/" target="_blank" rel="noopener">
+            <img class="logo-right" src="images/bracu.png" alt="Brac University logo" />
+          </a>
+          <p>
+            Department of CSE, Brac University<br>
+            February 2022 - December 2022
+          </p>
+
+          <h4>Full-Time Lecturer</h4>
+          <a href="https://www.bubt.edu.bd/" target="_blank" rel="noopener">
+            <img class="logo-right" src="images/bubt.png" alt="BUBT logo" />
+          </a>
+          <p>
+            Department of EEE, Bangladesh University of Business and Technology<br>
+            January 2022 - February 2022
+          </p>
+
+          <h4>Full-Time Lecturer</h4>
+          <a href="https://zhsust.ac.bd/" target="_blank" rel="noopener">
+            <img class="logo-right" src="images/zhsust.jpeg" alt="ZHSUST logo" />
+          </a>
+          <p>
+            Department of EEE, Z. H. Sikder University of Science and Technology<br>
+            June 2021 - January 2022
+          </p>
+        </section>
+
+      
+
+        <section id="footerlinks">
+          <h2>Publications</h2>
+          <hr>
+          <p>
+            During my academic career, I have published over 15 research articles in prestigious international conferences and journals.
+            For a comprehensive list of my publications, please visit the
+            <a href="publications.html">Publications</a> page.
+          </p>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
 </body>
 </html>
