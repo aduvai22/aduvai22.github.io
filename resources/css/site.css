@@ -407,3 +407,14 @@ hr{
   }
 }
 
+
+/* Research theme */
+.focus-group {
+  margin: 12px 0;
+}
+
+.focus-group .label {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}

@@ -5,8 +5,9 @@
   const captions = [
         "Presenting my CaveSeg Paper at ICRA 2024, Yokohama, Japan.",
         "Poster session at ICRA 2024.",
-        "Deployment of NemeSys AUV at Ginnie Springs.",
+        "Deploying NemeSys AUV at Ginnie Springs, FL.",
         "Presenting poster on Underwater Data Center Surveillance at NELMS IoT Conference 2025.",
+        "Showcasing CavePI AUV and OpenRover UGV at UF Expo, 2025.",
         "Attending my first IROS conference in Detroit, Michigan, 2023.",
       ];
 
